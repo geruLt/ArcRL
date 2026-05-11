@@ -1,0 +1,17 @@
+{
+    "llm": {
+        "model": "gpt-5",
+        "temperature": 0.7,
+        "api_key_env": "OPENAI_API_KEY"
+    },
+    "orchestrator": {
+        "check_interval": 6000000,
+        "api_host": "localhost",
+        "api_port": 8000
+    },
+    "monitoring": {
+        "verbose_logging": true,
+        "save_decisions_to_file": false,
+        "decisions_log_path": "orchestrator_decisions.json"
+    }
+}

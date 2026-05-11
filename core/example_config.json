@@ -1,0 +1,24 @@
+{
+    "llm": {
+        "model": "gpt-4o",
+        "temperature": 0.7,
+        "api_key_env": "OPENAI_API_KEY",
+        "_comment_reasoning": "GPT-5 only: reasoning_effort (low/medium/high), reasoning_summary (auto/concise/detailed/null)",
+        "reasoning_effort": "medium",
+        "reasoning_summary": null
+    },
+    "orchestrator": {
+        "check_interval": 3000000,
+        "api_host": "localhost",
+        "api_port": 8000
+    },
+    "monitoring": {
+        "verbose_logging": true,
+        "save_decisions_to_file": false,
+        "decisions_log_path": "orchestrator_decisions.json"
+    },
+    "stall_detection": {
+        "max_stalled_checks_at_zero": 50,
+        "max_stalled_checks_running": 30
+    }
+}

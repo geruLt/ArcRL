@@ -1,0 +1,11 @@
+{
+    "llm": {
+        "model": "gpt-4o",
+        "temperature": 0.7
+    },
+    "orchestrator": {
+        "check_interval": 3000000,
+        "api_host": "localhost"
+    },
+    "monitoring": {}
+}
